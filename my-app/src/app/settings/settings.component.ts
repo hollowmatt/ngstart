@@ -6,4 +6,6 @@ import { Component } from "@angular/core";
   templateUrl: './settings.component.html'
 })
 
-export class SettingsComponent {}
+export class SettingsComponent {
+  settingOne = "peanut butter";
+}
